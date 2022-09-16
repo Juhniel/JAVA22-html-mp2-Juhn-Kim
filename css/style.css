@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)), url("../images/pizzabg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    padding: .8rem;
+    height: 100px;
+   
+}
+.navbar-nav li {
+    padding-right: 20px;
+    
+}
+.nav-link {
+    font-size: 1.1em;
+}
+
+.navbar-logo img{
+    scale: 40%;
+    border-radius: 50%;
+    border: 4px solid greenyellow; 
+}
+
+.middle-logo img{
+    border: 4px solid greenyellow;
+    border-radius: 50%;
+    scale: 120%;
+    display: block;
+    margin: 200px auto; 
+}
+
+/* Menu */
+main{
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)), url(../images/italian-pizza-with-tomatoes-wooden-table-top-view_77211-1652\ \(1\).jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.menu-h1{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-style: italic;
+}
+
+main h1{
+    margin: 70px auto;
+}
+
+.menu {
+    /* border: 2px solid green;   */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 30px;
+    width: 800px;
+    height: 400px;
+    margin: 40px auto;
+}
+
+.menu div {
+    /* border: 2px solid black;  */
+    color: white;
+    height: 100px;
+    width: 250px;
+}
+
+.menu h4{
+    font-size: 30px;
+}
+.menu p{
+    font-style: italic;
+}
+/* Footer */
+
+footer {
+    /* border: 4x solid red; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+
+footer div {
+    /* border: 4x solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    margin-top: 50px; 
+}
+
+footer img{
+    border: 5px solid green;
+    scale: 55%;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -65px
+}
+
+footer h5 {
+    margin-right: 35px;
+}
+
+footer p {
+    margin-right: 30px;
+}
